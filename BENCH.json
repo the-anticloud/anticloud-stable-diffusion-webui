@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "STABLE_DIFFUSION_WEBUI",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTIST_TOOLS\\STABLE_DIFFUSION_WEBUI\\UPSTREAM_CLONE",
   "git": {
-   "head": "aa46003581e2c482e03e62116f68ef3c3a6f0233",
-   "url": "https://github.com/invoke-ai/InvokeAI",
-   "branch": "main",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+   "head": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/invoke-ai/InvokeAI"
   }
  },
  "metrics": {
