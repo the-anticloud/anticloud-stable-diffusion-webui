@@ -1,0 +1,1145 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:40eff65f-13d5-5f4b-a063-662fa1ca42b1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:02:43Z",
+    "component": {
+      "type": "application",
+      "name": "STABLE_DIFFUSION_WEBUI",
+      "version": "aa46003581e2",
+      "bom-ref": "pkg:generic/anticloud/STABLE_DIFFUSION_WEBUI@aa46003581e2",
+      "purl": "pkg:generic/anticloud/STABLE_DIFFUSION_WEBUI@aa46003581e2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "aa46003581e2c482e03e62116f68ef3c3a6f0233"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "accelerate",
+      "version": "unspecified",
+      "purl": "pkg:pypi/accelerate",
+      "bom-ref": "pypi/accelerate@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "bitsandbytes",
+      "version": "unspecified",
+      "purl": "pkg:pypi/bitsandbytes",
+      "bom-ref": "pypi/bitsandbytes@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "@chakra-ui/react",
+      "version": "^3.37.0",
+      "purl": "pkg:npm/@chakra-ui/react@^3.37.0",
+      "bom-ref": "npm/@chakra-ui/react@^3.37.0"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/core",
+      "version": "^6.3.1",
+      "purl": "pkg:npm/@dnd-kit/core@^6.3.1",
+      "bom-ref": "npm/@dnd-kit/core@^6.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/modifiers",
+      "version": "^9.0.0",
+      "purl": "pkg:npm/@dnd-kit/modifiers@^9.0.0",
+      "bom-ref": "npm/@dnd-kit/modifiers@^9.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/sortable",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/@dnd-kit/sortable@^10.0.0",
+      "bom-ref": "npm/@dnd-kit/sortable@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/utilities",
+      "version": "^3.2.2",
+      "purl": "pkg:npm/@dnd-kit/utilities@^3.2.2",
+      "bom-ref": "npm/@dnd-kit/utilities@^3.2.2"
+    },
+    {
+      "type": "library",
+      "name": "@emotion/react",
+      "version": "^11.14.0",
+      "purl": "pkg:npm/@emotion/react@^11.14.0",
+      "bom-ref": "npm/@emotion/react@^11.14.0"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource/inter",
+      "version": "^5.3.0",
+      "purl": "pkg:npm/@fontsource/inter@^5.3.0",
+      "bom-ref": "npm/@fontsource/inter@^5.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@tanstack/react-query",
+      "version": "^5.102.8",
+      "purl": "pkg:npm/@tanstack/react-query@^5.102.8",
+      "bom-ref": "npm/@tanstack/react-query@^5.102.8"
+    },
+    {
+      "type": "library",
+      "name": "@tanstack/react-router",
+      "version": "^1.170.36",
+      "purl": "pkg:npm/@tanstack/react-router@^1.170.36",
+      "bom-ref": "npm/@tanstack/react-router@^1.170.36"
+    },
+    {
+      "type": "library",
+      "name": "@tanstack/react-virtual",
+      "version": "^3.14.13",
+      "purl": "pkg:npm/@tanstack/react-virtual@^3.14.13",
+      "bom-ref": "npm/@tanstack/react-virtual@^3.14.13"
+    },
+    {
+      "type": "library",
+      "name": "@xyflow/react",
+      "version": "^12.11.6",
+      "purl": "pkg:npm/@xyflow/react@^12.11.6",
+      "bom-ref": "npm/@xyflow/react@^12.11.6"
+    },
+    {
+      "type": "library",
+      "name": "ag-psd",
+      "version": "^31.0.2",
+      "purl": "pkg:npm/ag-psd@^31.0.2",
+      "bom-ref": "npm/ag-psd@^31.0.2"
+    },
+    {
+      "type": "library",
+      "name": "fflate",
+      "version": "^0.8.3",
+      "purl": "pkg:npm/fflate@^0.8.3",
+      "bom-ref": "npm/fflate@^0.8.3"
+    },
+    {
+      "type": "library",
+      "name": "fuzzysort",
+      "version": "^4.0.2",
+      "purl": "pkg:npm/fuzzysort@^4.0.2",
+      "bom-ref": "npm/fuzzysort@^4.0.2"
+    },
+    {
+      "type": "library",
+      "name": "html-to-image",
+      "version": "^1.11.13",
+      "purl": "pkg:npm/html-to-image@^1.11.13",
+      "bom-ref": "npm/html-to-image@^1.11.13"
+    },
+    {
+      "type": "library",
+      "name": "i18next",
+      "version": "^26.4.2",
+      "purl": "pkg:npm/i18next@^26.4.2",
+      "bom-ref": "npm/i18next@^26.4.2"
+    },
+    {
+      "type": "library",
+      "name": "i18next-http-backend",
+      "version": "^4.0.2",
+      "purl": "pkg:npm/i18next-http-backend@^4.0.2",
+      "bom-ref": "npm/i18next-http-backend@^4.0.2"
+    },
+    {
+      "type": "library",
+      "name": "idb",
+      "version": "^8.0.3",
+      "purl": "pkg:npm/idb@^8.0.3",
+      "bom-ref": "npm/idb@^8.0.3"
+    },
+    {
+      "type": "library",
+      "name": "lucide-react",
+      "version": "^1.46.0",
+      "purl": "pkg:npm/lucide-react@^1.46.0",
+      "bom-ref": "npm/lucide-react@^1.46.0"
+    },
+    {
+      "type": "library",
+      "name": "perfect-freehand",
+      "version": "^1.2.3",
+      "purl": "pkg:npm/perfect-freehand@^1.2.3",
+      "bom-ref": "npm/perfect-freehand@^1.2.3"
+    },
+    {
+      "type": "library",
+      "name": "plotly.js-gl2d-dist-min",
+      "version": "^4.1.1",
+      "purl": "pkg:npm/plotly.js-gl2d-dist-min@^4.1.1",
+      "bom-ref": "npm/plotly.js-gl2d-dist-min@^4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.3.0",
+      "purl": "pkg:npm/react@^19.3.0",
+      "bom-ref": "npm/react@^19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.3.0",
+      "purl": "pkg:npm/react-dom@^19.3.0",
+      "bom-ref": "npm/react-dom@^19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "react-hook-tanstack-virtual",
+      "version": "^0.0.4",
+      "purl": "pkg:npm/react-hook-tanstack-virtual@^0.0.4",
+      "bom-ref": "npm/react-hook-tanstack-virtual@^0.0.4"
+    },
+    {
+      "type": "library",
+      "name": "react-i18next",
+      "version": "^17.0.14",
+      "purl": "pkg:npm/react-i18next@^17.0.14",
+      "bom-ref": "npm/react-i18next@^17.0.14"
+    },
+    {
+      "type": "library",
+      "name": "socket.io-client",
+      "version": "^4.8.3",
+      "purl": "pkg:npm/socket.io-client@^4.8.3",
+      "bom-ref": "npm/socket.io-client@^4.8.3"
+    },
+    {
+      "type": "library",
+      "name": "tinykeys",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/tinykeys@^4.0.0",
+      "bom-ref": "npm/tinykeys@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "use-sync-external-store",
+      "version": "^1.7.0",
+      "purl": "pkg:npm/use-sync-external-store@^1.7.0",
+      "bom-ref": "npm/use-sync-external-store@^1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "yaml",
+      "version": "^2.9.1",
+      "purl": "pkg:npm/yaml@^2.9.1",
+      "bom-ref": "npm/yaml@^2.9.1"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "^4.6.5",
+      "purl": "pkg:npm/zod@^4.6.5",
+      "bom-ref": "npm/zod@^4.6.5"
+    },
+    {
+      "type": "library",
+      "name": "@chakra-ui/cli",
+      "version": "^3.37.0",
+      "purl": "pkg:npm/@chakra-ui/cli@^3.37.0",
+      "bom-ref": "npm/@chakra-ui/cli@^3.37.0"
+    },
+    {
+      "type": "library",
+      "name": "@rolldown/plugin-babel",
+      "version": "^0.2.4",
+      "purl": "pkg:npm/@rolldown/plugin-babel@^0.2.4",
+      "bom-ref": "npm/@rolldown/plugin-babel@^0.2.4"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^26.5.1",
+      "purl": "pkg:npm/@types/node@^26.5.1",
+      "bom-ref": "npm/@types/node@^26.5.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/plotly.js",
+      "version": "^3.0.13",
+      "purl": "pkg:npm/@types/plotly.js@^3.0.13",
+      "bom-ref": "npm/@types/plotly.js@^3.0.13"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^19.3.0",
+      "purl": "pkg:npm/@types/react@^19.3.0",
+      "bom-ref": "npm/@types/react@^19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^19.3.0",
+      "purl": "pkg:npm/@types/react-dom@^19.3.0",
+      "bom-ref": "npm/@types/react-dom@^19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/use-sync-external-store",
+      "version": "^1.7.0",
+      "purl": "pkg:npm/@types/use-sync-external-store@^1.7.0",
+      "bom-ref": "npm/@types/use-sync-external-store@^1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-react",
+      "version": "^6.1.1",
+      "purl": "pkg:npm/@vitejs/plugin-react@^6.1.1",
+      "bom-ref": "npm/@vitejs/plugin-react@^6.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/browser-playwright",
+      "version": "5.0.0",
+      "purl": "pkg:npm/@vitest/browser-playwright@5.0.0",
+      "bom-ref": "npm/@vitest/browser-playwright@5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "axe-core",
+      "version": "^4.13.0",
+      "purl": "pkg:npm/axe-core@^4.13.0",
+      "bom-ref": "npm/axe-core@^4.13.0"
+    },
+    {
+      "type": "library",
+      "name": "babel-plugin-react-compiler",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/babel-plugin-react-compiler@^1.0.0",
+      "bom-ref": "npm/babel-plugin-react-compiler@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "oxfmt",
+      "version": "^0.68.0",
+      "purl": "pkg:npm/oxfmt@^0.68.0",
+      "bom-ref": "npm/oxfmt@^0.68.0"
+    },
+    {
+      "type": "library",
+      "name": "oxlint",
+      "version": "^1.83.0",
+      "purl": "pkg:npm/oxlint@^1.83.0",
+      "bom-ref": "npm/oxlint@^1.83.0"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "1.63.0",
+      "purl": "pkg:npm/playwright@1.63.0",
+      "bom-ref": "npm/playwright@1.63.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^7.0.2",
+      "purl": "pkg:npm/typescript@^7.0.2",
+      "bom-ref": "npm/typescript@^7.0.2"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^8.3.0",
+      "purl": "pkg:npm/vite@^8.3.0",
+      "bom-ref": "npm/vite@^8.3.0"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "5.0.0",
+      "purl": "pkg:npm/vitest@5.0.0",
+      "bom-ref": "npm/vitest@5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@atlaskit/pragmatic-drag-and-drop",
+      "version": "^1.7.7",
+      "purl": "pkg:npm/@atlaskit/pragmatic-drag-and-drop@^1.7.7",
+      "bom-ref": "npm/@atlaskit/pragmatic-drag-and-drop@^1.7.7"
+    },
+    {
+      "type": "library",
+      "name": "@atlaskit/pragmatic-drag-and-drop-auto-scroll",
+      "version": "^2.1.2",
+      "purl": "pkg:npm/@atlaskit/pragmatic-drag-and-drop-auto-scroll@^2.1.2",
+      "bom-ref": "npm/@atlaskit/pragmatic-drag-and-drop-auto-scroll@^2.1.2"
+    },
+    {
+      "type": "library",
+      "name": "@atlaskit/pragmatic-drag-and-drop-hitbox",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/@atlaskit/pragmatic-drag-and-drop-hitbox@^1.1.0",
+      "bom-ref": "npm/@atlaskit/pragmatic-drag-and-drop-hitbox@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@dagrejs/dagre",
+      "version": "^1.1.8",
+      "purl": "pkg:npm/@dagrejs/dagre@^1.1.8",
+      "bom-ref": "npm/@dagrejs/dagre@^1.1.8"
+    },
+    {
+      "type": "library",
+      "name": "@dagrejs/graphlib",
+      "version": "^2.2.4",
+      "purl": "pkg:npm/@dagrejs/graphlib@^2.2.4",
+      "bom-ref": "npm/@dagrejs/graphlib@^2.2.4"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource-variable/inter",
+      "version": "^5.2.8",
+      "purl": "pkg:npm/@fontsource-variable/inter@^5.2.8",
+      "bom-ref": "npm/@fontsource-variable/inter@^5.2.8"
+    },
+    {
+      "type": "library",
+      "name": "@invoke-ai/ui-library",
+      "version": "github:invoke-ai/ui-library#v0.0.48",
+      "purl": "pkg:npm/@invoke-ai/ui-library@github:invoke-ai/ui-library#v0.0.48",
+      "bom-ref": "npm/@invoke-ai/ui-library@github:invoke-ai/ui-library#v0.0.48"
+    },
+    {
+      "type": "library",
+      "name": "@nanostores/react",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/@nanostores/react@^1.1.0",
+      "bom-ref": "npm/@nanostores/react@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@observ33r/object-equals",
+      "version": "^1.1.6",
+      "purl": "pkg:npm/@observ33r/object-equals@^1.1.6",
+      "bom-ref": "npm/@observ33r/object-equals@^1.1.6"
+    },
+    {
+      "type": "library",
+      "name": "@reduxjs/toolkit",
+      "version": "2.8.2",
+      "purl": "pkg:npm/@reduxjs/toolkit@2.8.2",
+      "bom-ref": "npm/@reduxjs/toolkit@2.8.2"
+    },
+    {
+      "type": "library",
+      "name": "@roarr/browser-log-writer",
+      "version": "^1.3.0",
+      "purl": "pkg:npm/@roarr/browser-log-writer@^1.3.0",
+      "bom-ref": "npm/@roarr/browser-log-writer@^1.3.0"
+    },
+    {
+      "type": "library",
+      "name": "async-mutex",
+      "version": "^0.5.0",
+      "purl": "pkg:npm/async-mutex@^0.5.0",
+      "bom-ref": "npm/async-mutex@^0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "chakra-react-select",
+      "version": "^4.10.1",
+      "purl": "pkg:npm/chakra-react-select@^4.10.1",
+      "bom-ref": "npm/chakra-react-select@^4.10.1"
+    },
+    {
+      "type": "library",
+      "name": "cmdk",
+      "version": "^1.1.1",
+      "purl": "pkg:npm/cmdk@^1.1.1",
+      "bom-ref": "npm/cmdk@^1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "compare-versions",
+      "version": "^6.1.1",
+      "purl": "pkg:npm/compare-versions@^6.1.1",
+      "bom-ref": "npm/compare-versions@^6.1.1"
+    },
+    {
+      "type": "library",
+      "name": "dockview",
+      "version": "^4.12.0",
+      "purl": "pkg:npm/dockview@^4.12.0",
+      "bom-ref": "npm/dockview@^4.12.0"
+    },
+    {
+      "type": "library",
+      "name": "es-toolkit",
+      "version": "^1.46.1",
+      "purl": "pkg:npm/es-toolkit@^1.46.1",
+      "bom-ref": "npm/es-toolkit@^1.46.1"
+    },
+    {
+      "type": "library",
+      "name": "filesize",
+      "version": "^10.1.6",
+      "purl": "pkg:npm/filesize@^10.1.6",
+      "bom-ref": "npm/filesize@^10.1.6"
+    },
+    {
+      "type": "library",
+      "name": "fracturedjsonjs",
+      "version": "^4.1.1",
+      "purl": "pkg:npm/fracturedjsonjs@^4.1.1",
+      "bom-ref": "npm/fracturedjsonjs@^4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "framer-motion",
+      "version": "^11.18.2",
+      "purl": "pkg:npm/framer-motion@^11.18.2",
+      "bom-ref": "npm/framer-motion@^11.18.2"
+    },
+    {
+      "type": "library",
+      "name": "idb-keyval",
+      "version": "6.2.1",
+      "purl": "pkg:npm/idb-keyval@6.2.1",
+      "bom-ref": "npm/idb-keyval@6.2.1"
+    },
+    {
+      "type": "library",
+      "name": "jsondiffpatch",
+      "version": "^0.7.6",
+      "purl": "pkg:npm/jsondiffpatch@^0.7.6",
+      "bom-ref": "npm/jsondiffpatch@^0.7.6"
+    },
+    {
+      "type": "library",
+      "name": "jszip",
+      "version": "^3.10.1",
+      "purl": "pkg:npm/jszip@^3.10.1",
+      "bom-ref": "npm/jszip@^3.10.1"
+    },
+    {
+      "type": "library",
+      "name": "konva",
+      "version": "^9.3.22",
+      "purl": "pkg:npm/konva@^9.3.22",
+      "bom-ref": "npm/konva@^9.3.22"
+    },
+    {
+      "type": "library",
+      "name": "linkify-react",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/linkify-react@^4.3.2",
+      "bom-ref": "npm/linkify-react@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "linkifyjs",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/linkifyjs@^4.3.2",
+      "bom-ref": "npm/linkifyjs@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "lru-cache",
+      "version": "^11.2.4",
+      "purl": "pkg:npm/lru-cache@^11.2.4",
+      "bom-ref": "npm/lru-cache@^11.2.4"
+    },
+    {
+      "type": "library",
+      "name": "mtwist",
+      "version": "^1.0.2",
+      "purl": "pkg:npm/mtwist@^1.0.2",
+      "bom-ref": "npm/mtwist@^1.0.2"
+    },
+    {
+      "type": "library",
+      "name": "nanoid",
+      "version": "^5.1.16",
+      "purl": "pkg:npm/nanoid@^5.1.16",
+      "bom-ref": "npm/nanoid@^5.1.16"
+    },
+    {
+      "type": "library",
+      "name": "nanostores",
+      "version": "^1.3.0",
+      "purl": "pkg:npm/nanostores@^1.3.0",
+      "bom-ref": "npm/nanostores@^1.3.0"
+    },
+    {
+      "type": "library",
+      "name": "new-github-issue-url",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/new-github-issue-url@^1.1.0",
+      "bom-ref": "npm/new-github-issue-url@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "overlayscrollbars",
+      "version": "^2.13.0",
+      "purl": "pkg:npm/overlayscrollbars@^2.13.0",
+      "bom-ref": "npm/overlayscrollbars@^2.13.0"
+    },
+    {
+      "type": "library",
+      "name": "overlayscrollbars-react",
+      "version": "^0.5.6",
+      "purl": "pkg:npm/overlayscrollbars-react@^0.5.6",
+      "bom-ref": "npm/overlayscrollbars-react@^0.5.6"
+    },
+    {
+      "type": "library",
+      "name": "query-string",
+      "version": "^9.3.1",
+      "purl": "pkg:npm/query-string@^9.3.1",
+      "bom-ref": "npm/query-string@^9.3.1"
+    },
+    {
+      "type": "library",
+      "name": "raf-throttle",
+      "version": "^2.0.6",
+      "purl": "pkg:npm/raf-throttle@^2.0.6",
+      "bom-ref": "npm/raf-throttle@^2.0.6"
+    },
+    {
+      "type": "library",
+      "name": "react-colorful",
+      "version": "^5.7.0",
+      "purl": "pkg:npm/react-colorful@^5.7.0",
+      "bom-ref": "npm/react-colorful@^5.7.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dropzone",
+      "version": "^14.3.8",
+      "purl": "pkg:npm/react-dropzone@^14.3.8",
+      "bom-ref": "npm/react-dropzone@^14.3.8"
+    },
+    {
+      "type": "library",
+      "name": "react-error-boundary",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/react-error-boundary@^6.0.0",
+      "bom-ref": "npm/react-error-boundary@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-hook-form",
+      "version": "^7.69.0",
+      "purl": "pkg:npm/react-hook-form@^7.69.0",
+      "bom-ref": "npm/react-hook-form@^7.69.0"
+    },
+    {
+      "type": "library",
+      "name": "react-hotkeys-hook",
+      "version": "4.5.0",
+      "purl": "pkg:npm/react-hotkeys-hook@4.5.0",
+      "bom-ref": "npm/react-hotkeys-hook@4.5.0"
+    },
+    {
+      "type": "library",
+      "name": "react-icons",
+      "version": "^5.5.0",
+      "purl": "pkg:npm/react-icons@^5.5.0",
+      "bom-ref": "npm/react-icons@^5.5.0"
+    },
+    {
+      "type": "library",
+      "name": "react-redux",
+      "version": "9.2.0",
+      "purl": "pkg:npm/react-redux@9.2.0",
+      "bom-ref": "npm/react-redux@9.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-resizable-panels",
+      "version": "^3.0.6",
+      "purl": "pkg:npm/react-resizable-panels@^3.0.6",
+      "bom-ref": "npm/react-resizable-panels@^3.0.6"
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "^7.18.4",
+      "purl": "pkg:npm/react-router-dom@^7.18.4",
+      "bom-ref": "npm/react-router-dom@^7.18.4"
+    },
+    {
+      "type": "library",
+      "name": "react-textarea-autosize",
+      "version": "^8.5.9",
+      "purl": "pkg:npm/react-textarea-autosize@^8.5.9",
+      "bom-ref": "npm/react-textarea-autosize@^8.5.9"
+    },
+    {
+      "type": "library",
+      "name": "react-use",
+      "version": "^17.6.1",
+      "purl": "pkg:npm/react-use@^17.6.1",
+      "bom-ref": "npm/react-use@^17.6.1"
+    },
+    {
+      "type": "library",
+      "name": "react-virtuoso",
+      "version": "^4.18.6",
+      "purl": "pkg:npm/react-virtuoso@^4.18.6",
+      "bom-ref": "npm/react-virtuoso@^4.18.6"
+    },
+    {
+      "type": "library",
+      "name": "redux-remember",
+      "version": "^5.3.0",
+      "purl": "pkg:npm/redux-remember@^5.3.0",
+      "bom-ref": "npm/redux-remember@^5.3.0"
+    },
+    {
+      "type": "library",
+      "name": "redux-undo",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/redux-undo@^1.1.0",
+      "bom-ref": "npm/redux-undo@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "rfdc",
+      "version": "^1.4.1",
+      "purl": "pkg:npm/rfdc@^1.4.1",
+      "bom-ref": "npm/rfdc@^1.4.1"
+    },
+    {
+      "type": "library",
+      "name": "roarr",
+      "version": "^7.21.2",
+      "purl": "pkg:npm/roarr@^7.21.2",
+      "bom-ref": "npm/roarr@^7.21.2"
+    },
+    {
+      "type": "library",
+      "name": "serialize-error",
+      "version": "^12.0.0",
+      "purl": "pkg:npm/serialize-error@^12.0.0",
+      "bom-ref": "npm/serialize-error@^12.0.0"
+    },
+    {
+      "type": "library",
+      "name": "stable-hash",
+      "version": "^0.0.6",
+      "purl": "pkg:npm/stable-hash@^0.0.6",
+      "bom-ref": "npm/stable-hash@^0.0.6"
+    },
+    {
+      "type": "library",
+      "name": "use-debounce",
+      "version": "^10.0.6",
+      "purl": "pkg:npm/use-debounce@^10.0.6",
+      "bom-ref": "npm/use-debounce@^10.0.6"
+    },
+    {
+      "type": "library",
+      "name": "use-device-pixel-ratio",
+      "version": "^1.1.2",
+      "purl": "pkg:npm/use-device-pixel-ratio@^1.1.2",
+      "bom-ref": "npm/use-device-pixel-ratio@^1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "^11.1.0",
+      "purl": "pkg:npm/uuid@^11.1.0",
+      "bom-ref": "npm/uuid@^11.1.0"
+    },
+    {
+      "type": "library",
+      "name": "zod-validation-error",
+      "version": "^4.0.2",
+      "purl": "pkg:npm/zod-validation-error@^4.0.2",
+      "bom-ref": "npm/zod-validation-error@^4.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@babel/preset-typescript",
+      "version": "^7.29.7",
+      "purl": "pkg:npm/@babel/preset-typescript@^7.29.7",
+      "bom-ref": "npm/@babel/preset-typescript@^7.29.7"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^9.39.2",
+      "purl": "pkg:npm/@eslint/js@^9.39.2",
+      "bom-ref": "npm/@eslint/js@^9.39.2"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/addon-docs",
+      "version": "^10.3.6",
+      "purl": "pkg:npm/@storybook/addon-docs@^10.3.6",
+      "bom-ref": "npm/@storybook/addon-docs@^10.3.6"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/addon-links",
+      "version": "^10.3.6",
+      "purl": "pkg:npm/@storybook/addon-links@^10.3.6",
+      "bom-ref": "npm/@storybook/addon-links@^10.3.6"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/react-vite",
+      "version": "^10.3.6",
+      "purl": "pkg:npm/@storybook/react-vite@^10.3.6",
+      "bom-ref": "npm/@storybook/react-vite@^10.3.6"
+    },
+    {
+      "type": "library",
+      "name": "@types/uuid",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/@types/uuid@^10.0.0",
+      "bom-ref": "npm/@types/uuid@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^8.59.2",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.59.2",
+      "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.59.2"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^8.59.2",
+      "purl": "pkg:npm/@typescript-eslint/parser@^8.59.2",
+      "bom-ref": "npm/@typescript-eslint/parser@^8.59.2"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-react-swc",
+      "version": "^4.3.0",
+      "purl": "pkg:npm/@vitejs/plugin-react-swc@^4.3.0",
+      "bom-ref": "npm/@vitejs/plugin-react-swc@^4.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/coverage-v8",
+      "version": "^4.1.5",
+      "purl": "pkg:npm/@vitest/coverage-v8@^4.1.5",
+      "bom-ref": "npm/@vitest/coverage-v8@^4.1.5"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/ui",
+      "version": "^4.1.5",
+      "purl": "pkg:npm/@vitest/ui@^4.1.5",
+      "bom-ref": "npm/@vitest/ui@^4.1.5"
+    },
+    {
+      "type": "library",
+      "name": "concurrently",
+      "version": "^9.2.5",
+      "purl": "pkg:npm/concurrently@^9.2.5",
+      "bom-ref": "npm/concurrently@^9.2.5"
+    },
+    {
+      "type": "library",
+      "name": "csstype",
+      "version": "^3.2.3",
+      "purl": "pkg:npm/csstype@^3.2.3",
+      "bom-ref": "npm/csstype@^3.2.3"
+    },
+    {
+      "type": "library",
+      "name": "dpdm",
+      "version": "^3.14.0",
+      "purl": "pkg:npm/dpdm@^3.14.0",
+      "bom-ref": "npm/dpdm@^3.14.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.39.2",
+      "purl": "pkg:npm/eslint@^9.39.2",
+      "bom-ref": "npm/eslint@^9.39.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-i18next",
+      "version": "^6.1.3",
+      "purl": "pkg:npm/eslint-plugin-i18next@^6.1.3",
+      "bom-ref": "npm/eslint-plugin-i18next@^6.1.3"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-import",
+      "version": "^2.32.0",
+      "purl": "pkg:npm/eslint-plugin-import@^2.32.0",
+      "bom-ref": "npm/eslint-plugin-import@^2.32.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-path",
+      "version": "^2.1.0",
+      "purl": "pkg:npm/eslint-plugin-path@^2.1.0",
+      "bom-ref": "npm/eslint-plugin-path@^2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react",
+      "version": "^7.37.5",
+      "purl": "pkg:npm/eslint-plugin-react@^7.37.5",
+      "bom-ref": "npm/eslint-plugin-react@^7.37.5"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-hooks",
+      "version": "^7.1.1",
+      "purl": "pkg:npm/eslint-plugin-react-hooks@^7.1.1",
+      "bom-ref": "npm/eslint-plugin-react-hooks@^7.1.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-refresh",
+      "version": "^0.5.2",
+      "purl": "pkg:npm/eslint-plugin-react-refresh@^0.5.2",
+      "bom-ref": "npm/eslint-plugin-react-refresh@^0.5.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-simple-import-sort",
+      "version": "^13.0.0",
+      "purl": "pkg:npm/eslint-plugin-simple-import-sort@^13.0.0",
+      "bom-ref": "npm/eslint-plugin-simple-import-sort@^13.0.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-storybook",
+      "version": "^10.3.6",
+      "purl": "pkg:npm/eslint-plugin-storybook@^10.3.6",
+      "bom-ref": "npm/eslint-plugin-storybook@^10.3.6"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-unused-imports",
+      "version": "^4.4.1",
+      "purl": "pkg:npm/eslint-plugin-unused-imports@^4.4.1",
+      "bom-ref": "npm/eslint-plugin-unused-imports@^4.4.1"
+    },
+    {
+      "type": "library",
+      "name": "globals",
+      "version": "^16.5.0",
+      "purl": "pkg:npm/globals@^16.5.0",
+      "bom-ref": "npm/globals@^16.5.0"
+    },
+    {
+      "type": "library",
+      "name": "happy-dom",
+      "version": "^20.11.6",
+      "purl": "pkg:npm/happy-dom@^20.11.6",
+      "bom-ref": "npm/happy-dom@^20.11.6"
+    },
+    {
+      "type": "library",
+      "name": "knip",
+      "version": "^5.77.4",
+      "purl": "pkg:npm/knip@^5.77.4",
+      "bom-ref": "npm/knip@^5.77.4"
+    },
+    {
+      "type": "library",
+      "name": "magic-string",
+      "version": "^0.30.21",
+      "purl": "pkg:npm/magic-string@^0.30.21",
+      "bom-ref": "npm/magic-string@^0.30.21"
+    },
+    {
+      "type": "library",
+      "name": "openapi-types",
+      "version": "^12.1.3",
+      "purl": "pkg:npm/openapi-types@^12.1.3",
+      "bom-ref": "npm/openapi-types@^12.1.3"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.8.3",
+      "purl": "pkg:npm/prettier@^3.8.3",
+      "bom-ref": "npm/prettier@^3.8.3"
+    },
+    {
+      "type": "library",
+      "name": "rollup-plugin-visualizer",
+      "version": "^6.0.5",
+      "purl": "pkg:npm/rollup-plugin-visualizer@^6.0.5",
+      "bom-ref": "npm/rollup-plugin-visualizer@^6.0.5"
+    },
+    {
+      "type": "library",
+      "name": "storybook",
+      "version": "^10.3.6",
+      "purl": "pkg:npm/storybook@^10.3.6",
+      "bom-ref": "npm/storybook@^10.3.6"
+    },
+    {
+      "type": "library",
+      "name": "tsafe",
+      "version": "^1.8.12",
+      "purl": "pkg:npm/tsafe@^1.8.12",
+      "bom-ref": "npm/tsafe@^1.8.12"
+    },
+    {
+      "type": "library",
+      "name": "type-fest",
+      "version": "^4.41.0",
+      "purl": "pkg:npm/type-fest@^4.41.0",
+      "bom-ref": "npm/type-fest@^4.41.0"
+    },
+    {
+      "type": "library",
+      "name": "vite-plugin-babel",
+      "version": "^1.6.0",
+      "purl": "pkg:npm/vite-plugin-babel@^1.6.0",
+      "bom-ref": "npm/vite-plugin-babel@^1.6.0"
+    },
+    {
+      "type": "library",
+      "name": "vite-plugin-eslint",
+      "version": "^1.8.1",
+      "purl": "pkg:npm/vite-plugin-eslint@^1.8.1",
+      "bom-ref": "npm/vite-plugin-eslint@^1.8.1"
+    },
+    {
+      "type": "library",
+      "name": "openapi-typescript",
+      "version": "7.10.1",
+      "purl": "pkg:npm/openapi-typescript@7.10.1",
+      "bom-ref": "npm/openapi-typescript@7.10.1"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": ">= 1.4",
+      "purl": "pkg:pypi/torch@1.4",
+      "bom-ref": "pypi/torch@>= 1.4"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/markdown-remark",
+      "version": "^7.3.2",
+      "purl": "pkg:npm/@astrojs/markdown-remark@^7.3.2",
+      "bom-ref": "npm/@astrojs/markdown-remark@^7.3.2"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/starlight",
+      "version": "^0.42.6",
+      "purl": "pkg:npm/@astrojs/starlight@^0.42.6",
+      "bom-ref": "npm/@astrojs/starlight@^0.42.6"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource-variable/roboto-mono",
+      "version": "^5.2.9",
+      "purl": "pkg:npm/@fontsource-variable/roboto-mono@^5.2.9",
+      "bom-ref": "npm/@fontsource-variable/roboto-mono@^5.2.9"
+    },
+    {
+      "type": "library",
+      "name": "astro",
+      "version": "^7.3.8",
+      "purl": "pkg:npm/astro@^7.3.8",
+      "bom-ref": "npm/astro@^7.3.8"
+    },
+    {
+      "type": "library",
+      "name": "github-slugger",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/github-slugger@^2.0.0",
+      "bom-ref": "npm/github-slugger@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "mermaid",
+      "version": "^11.15.0",
+      "purl": "pkg:npm/mermaid@^11.15.0",
+      "bom-ref": "npm/mermaid@^11.15.0"
+    },
+    {
+      "type": "library",
+      "name": "rehype-external-links",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/rehype-external-links@^3.0.0",
+      "bom-ref": "npm/rehype-external-links@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "sharp",
+      "version": "^0.35.5",
+      "purl": "pkg:npm/sharp@^0.35.5",
+      "bom-ref": "npm/sharp@^0.35.5"
+    },
+    {
+      "type": "library",
+      "name": "starlight-changelogs",
+      "version": "^0.5.0",
+      "purl": "pkg:npm/starlight-changelogs@^0.5.0",
+      "bom-ref": "npm/starlight-changelogs@^0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "starlight-contextual-menu",
+      "version": "^0.1.5",
+      "purl": "pkg:npm/starlight-contextual-menu@^0.1.5",
+      "bom-ref": "npm/starlight-contextual-menu@^0.1.5"
+    },
+    {
+      "type": "library",
+      "name": "starlight-links-validator",
+      "version": "^0.27.0",
+      "purl": "pkg:npm/starlight-links-validator@^0.27.0",
+      "bom-ref": "npm/starlight-links-validator@^0.27.0"
+    },
+    {
+      "type": "library",
+      "name": "starlight-llms-txt",
+      "version": "^0.12.0",
+      "purl": "pkg:npm/starlight-llms-txt@^0.12.0",
+      "bom-ref": "npm/starlight-llms-txt@^0.12.0"
+    },
+    {
+      "type": "library",
+      "name": "node-addon-api",
+      "version": "^8.8.0",
+      "purl": "pkg:npm/node-addon-api@^8.8.0",
+      "bom-ref": "npm/node-addon-api@^8.8.0"
+    },
+    {
+      "type": "library",
+      "name": "node-gyp",
+      "version": "^12.3.0",
+      "purl": "pkg:npm/node-gyp@^12.3.0",
+      "bom-ref": "npm/node-gyp@^12.3.0"
+    }
+  ]
+}
